@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/fons.png);
+    background-position:center
+    background-size: fill;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 12%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1.2;
+    text-align: center;
+}
+.nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+}
+.nav-links ul li a{
+    color:#A9A9A9;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#A9A9A9;
+    display: block;
+    margin:inherit;
+    transition: 0.2s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color:#A9A9A9;
+    position:absolute;
+    font-size: 20 px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box hl{
+    font-size: 55px;
+    font-weight: 600;
+}
+.text-box p{
+    font-size: 24px;
+    color:#A9A9A9;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#A9A9A9;
+    border: 1px solid #A9A9A9;
+    padding: 12px 30px;
+    font-size: 23px;
+    background: transparent;
+    position: relative;
+}
+.hero-btn:hover{
+    border: 1px solid #A9A9A9;
+    background: #A9A9A9;
+    color: #fff;
+    transition: 0.2s;
+}
+
+/*------- PARMUMS -------*/
+
+.PARMUMS{
+    width:  80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 55px;
+    font-weight: 300;
+    color: #A9A9A9
+}
+
+p{
+    color: #A9A9A9;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+     
+    
+    
+    
+    
+    
+    
+}
